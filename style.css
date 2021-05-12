@@ -158,3 +158,6 @@ body,h1,p{
 .item4 .progress-bar{
     background-color: #FFE4A0;
 }
+.active{
+    box-shadow: 0 0 20px gray;
+}
