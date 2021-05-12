@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body,h1,p{
+   margin: 0;
+
+}
+/* TOP-BAR */
+#topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top:0;
+}
+#topbar img{
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    cursor: pointer;
+}
+#topbar nav a{
+    font-size: 20px;
+    color:grey;    
+    margin: 0 30px;
+    text-decoration: none;
+    padding: 5px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+#topbar nav a:hover{
+    box-sizing: border-box;
+    color: black;
+    font-style: bold;
+    
+    border-bottom: 2px solid blue;
+}
+
+#topbar div button{
+    margin-right: 30px;
+    color:blue;
+    background-color: #FFD8DB;
+    border: 0;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* landing section */
+#landing-section{
+    display: flex;
+    height: 100vh; 
+    flex-wrap: nowrap; 
+    box-sizing: border-box;
+    margin-top: 150px; 
+    margin-left: 140px;
+}
+#landing-section div button{
+    color: #ffffff;
+    background-color:#5243C0 ;   
+    border: 0;
+    border-radius: 40px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#landing-section div h1{
+    font-size: 70px;
+    width: 100%; 
+}
+#landing-section div h1 span{
+    display: inline-block;
+}
+
+#para{
+    margin-top: 30px;
+    color: grey;
+    line-height: 1.5em;
+}
+.btn-wrapper{
+    height: 60px;
+    align-items: center; 
+}
+.heading-dot-wrapper{
+    display: inline-block;
+}
+#heading-dot{
+    width: 20px;
+    height: 20px;
+    background-color: #5243C0;
+}
+
+.btn-wrapper{
+    display: flex;
+    margin-top: 20px;
+}
+.list-item-wrapper{
+    margin-top: 50px;
+}
+.up-arrow{
+    margin-left: 20px;
+}
+.down-arrow{
+    margin-left: 20px;
+}
+.list-item{
+    padding: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;    
+}
+.list-item:hover{
+    background-color: white;
+    box-shadow: 0 2px 2px #ccc;
+}
+.list-item-wrapper div{
+    background-color: #F9F9F9;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px #F9F9F9;
+}
+.list-item p{
+    font-size: 15px;
+    font-weight: 700;
+    width: 100px;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.left-part{
+    width: 100%;
+    box-sizing: border-box;
+}
+.right-part{
+    padding-right: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.progress-bar{
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.item1 .progress-bar{
+    background-color: #FED7DA;
+}
+.item2 .progress-bar{
+    background-color: #FD6534;
+}
+.item3 .progress-bar{
+    background-color: #9ED095;
+}
+.item4 .progress-bar{
+    background-color: #FFE4A0;
+}
